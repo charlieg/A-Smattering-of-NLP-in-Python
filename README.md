@@ -1,2 +1,2 @@
-A-Smattering-of-NLP-in-Python
+A Smattering of NLP in Python
 =============================
