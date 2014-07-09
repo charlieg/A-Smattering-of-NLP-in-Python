@@ -2,15 +2,10 @@
 # A Smattering of NLP in Python
 *by Charlie Greenbacker [@greenbacker](https://twitter.com/greenbacker)*
 
-[![Python Powered logo](https://raw.githubusercontent.com/charlieg/A-Smattering-
-of-NLP-in-Python/master/images/python-
-powered-w-200x80.png)](https://www.python.org/)
-
-### Part of a [joint meetup on Natural Language
-Processing](http://www.meetup.com/stats-prog-dc/events/177772322/) - 9 July 2014
-- #### [Statistical Programming DC](http://www.meetup.com/stats-prog-dc/)
-- #### [Data Wranglers DC](http://www.meetup.com/Data-Wranglers-DC/)
-- #### [DC Natural Language Processing](http://dcnlp.org/)
+### Part of a [joint meetup on NLP](http://www.meetup.com/stats-prog-dc/events/177772322/) - 9 July 2014
+- [Statistical Programming DC](http://www.meetup.com/stats-prog-dc/)
+- [Data Wranglers DC](http://www.meetup.com/Data-Wranglers-DC/)
+- [DC Natural Language Processing](http://dcnlp.org/)
 
 ***
 
@@ -33,10 +28,6 @@ stemming & lemmatization, frequency analysis, and named entity recognition.
 Several of these components will then be assembled to build a very basic
 document summarization program.
 
-[![Natural Language Processing with Python book
-cover](https://raw.githubusercontent.com/charlieg/A-Smattering-of-NLP-in-
-Python/master/images/cat.gif)](http://oreilly.com/catalog/9780596516499/)
-
 ### Initial Setup
 Obviously, you'll need Python installed on your system to run the code examples
 used in this presentation. We enthusiatically recommend using
@@ -45,10 +36,6 @@ provided by [Continuum Analytics](http://www.continuum.io/). Anaconda is free to
 use, it includes nearly [200 of the most commonly used Python packages for data
 analysis](http://docs.continuum.io/anaconda/pkg-docs.html) (including NLTK), and
 it works on Mac, Linux, and yes, even Windows.
-
-[![Anaconda logo](https://raw.githubusercontent.com/charlieg/A-Smattering-of-
-NLP-in-Python/master/images/anaconda_logo_web.png)](https://store.continuum.io/c
-shop/anaconda/)
 
 We'll make use of the following Python packages in the example code:
 
@@ -80,10 +67,6 @@ handy in order to run this particular example:
 
 - stanford-ner.jar
 - english.all.3class.distsim.crf.ser.gz
-
-[![Stanford NLP Group logo](https://raw.githubusercontent.com/charlieg/A
--Smattering-of-NLP-in-Python/master/images/stanford-nlp.jpg)](http://www-
-nlp.stanford.edu/software/CRF-NER.shtml#Download)
 
 ***
 
@@ -294,10 +277,6 @@ built NER classifier in the "real world" without first re-training it on
 annotated data representing their particular task. So please don't send me any
 hate mail -- I've done my part to stop the madness.)
 
-![Retrain my classifier models? Ain't nobody got time for
-that!](https://raw.githubusercontent.com/charlieg/A-Smattering-of-NLP-in-
-Python/master/images/no_time.jpg)
-
 In the example below (inspired by [this gist from Gavin
 Hackeling](https://gist.github.com/gavinmh/4735528/) and [this post from John
 Price](http://freshlyminted.co.uk/blog/2011/02/28/getting-band-and-artist-names-
@@ -412,10 +391,6 @@ ourselves using NLTK, but rather than bore you with the math, we'll take a
 shortcut and use the TF-IDF implementation provided by the [scikit-learn](http
 ://scikit-learn.org/) machine learning library for Python.
 
-![Chevy Chase: "It was my understanding that there would be no
-math."](https://raw.githubusercontent.com/charlieg/A-Smattering-of-NLP-in-
-Python/master/images/i-was-told-there-would-be-no-math.jpg)
-
 #### Building a Term-Document Matrix
 
 We'll use scikit-learn's <code>TfidfVectorizer</code> class to construct a
@@ -424,10 +399,6 @@ containing the TF-IDF score for each word in each document in the Reuters
 Corpus. In essence, the rows of this sparse matrix correspond to documents in
 the corpus, the columns represent each word in the vocabulary of the corpus, and
 each cell contains the TF-IDF value for a given word in a given document.
-
-[![Scikit-learn logo](https://raw.githubusercontent.com/charlieg/A-Smattering-
-of-NLP-in-Python/master/images/Scikit-learn_logo.png)](http://scikit-learn.org/s
-table/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
 
 Inspired by a [computer science lab exercise from Duke University](http://www.cs
 .duke.edu/courses/spring14/compsci290/assignments/lab02.html), the code sample
@@ -535,10 +506,6 @@ of complete sentences. The possibilities are virtually endless.
 Want to learn more? Start by working your way through all the examples in the
 NLTK book (aka "the Whale book"):
 
-[![Natural Language Processing with Python book
-cover](https://raw.githubusercontent.com/charlieg/A-Smattering-of-NLP-in-
-Python/master/images/cat.gif)](http://oreilly.com/catalog/9780596516499/)
-
 - [Natural Language Processing with Python
 (book)](http://oreilly.com/catalog/9780596516499/)
 - (free online version: [nltk.org/book](http://www.nltk.org/book/))
@@ -556,8 +523,5 @@ API)](https://github.com/mit-nlp/MITIE)
 - [gensim (topic modeling library for Python)](http://radimrehurek.com/gensim/)
 
 ### Attend future DC NLP meetups
-
-[![DC NLP logo](https://raw.githubusercontent.com/charlieg/A-Smattering-of-NLP-
-in-Python/master/images/dcnlp.jpeg)](http://dcnlp.org/)
 
 - [dcnlp.org](http://dcnlp.org/) | [@DCNLP](https://twitter.com/DCNLP/)
