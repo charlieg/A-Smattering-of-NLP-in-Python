@@ -1,3 +1,7 @@
+## Hey YOU!
+**Yes, you. Don't try to use the code examples in this README. Instead, download the .ipynb file provided in this repository, fire up [iPython Notebook](http://ipython.org/notebook.html), and run the code there instead. Trust us, you'll like it much better.**
+
+***
 
 # A Smattering of NLP in Python
 *by Charlie Greenbacker [@greenbacker](https://twitter.com/greenbacker)*
