@@ -1,6 +1,8 @@
 ## Hey YOU!
 **Yes, you. Don't try to use the code examples in this README. Instead, download the .ipynb file provided in this repository, fire up [iPython Notebook](http://ipython.org/notebook.html), and run the code there instead. Trust us, you'll like it much better.**
 
+**You can also view a non-runnable version of the notebook (with proper syntax highlighting and embedded images) here: [http://nbviewer.ipython.org/github/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb](http://nbviewer.ipython.org/github/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb)**
+
 ***
 
 # A Smattering of NLP in Python
