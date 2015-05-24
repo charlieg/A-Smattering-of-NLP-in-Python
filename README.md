@@ -54,8 +54,7 @@ Anaconda)
 
 Please note that the **readability** package is not distributed with Anaconda,
 so you'll need to download & install it separately using something like
-<code>easy_install readability-lxml</code> or <code>pip install readability-
-lxml</code>.
+<code>easy_install readability-lxml</code> or <code>pip install readability-lxml</code>.
 
 If you don't use Anaconda, you'll also need to download & install the other
 packages separately using similar methods. Refer to the homepage of each package
