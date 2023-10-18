@@ -36,7 +36,7 @@ document summarization program.
 
 ### Initial Setup
 Obviously, you'll need Python installed on your system to run the code examples
-used in this presentation. We enthusiatically recommend using
+used in this presentation. We enthusiastically recommend using
 [Anaconda](https://store.continuum.io/cshop/anaconda/), a Python distribution
 provided by [Continuum Analytics](http://www.continuum.io/). Anaconda is free to
 use, it includes nearly [200 of the most commonly used Python packages for data
